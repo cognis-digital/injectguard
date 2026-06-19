@@ -1,0 +1,23 @@
+{
+  "name": "example-rules",
+  "rules": [
+    {
+      "id": "sqli-tautology",
+      "category": "sqli",
+      "severity": "high",
+      "pattern": "(['\"]?\\s*or\\s+['\"]?\\d+['\"]?\\s*=\\s*['\"]?\\d+)"
+    },
+    {
+      "id": "sqli-union-select",
+      "category": "sqli",
+      "severity": "high",
+      "pattern": "\\bunion\\b[\\s\\S]{0,40}?\\bselect\\b"
+    },
+    {
+      "id": "xss-script-tag",
+      "category": "xss",
+      "severity": "high",
+      "pattern": "<\\s*script\\b"
+    }
+  ]
+}

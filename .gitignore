@@ -1,0 +1,22 @@
+# Binaries
+injectguard
+injectguard.exe
+*.exe
+*.test
+*.out
+
+# Go build / test artifacts
+/dist/
+/bin/
+*.prof
+coverage.txt
+
+# Go workspace
+go.work
+go.work.sum
+
+# Editor / OS
+.idea/
+.vscode/
+.DS_Store
+*~

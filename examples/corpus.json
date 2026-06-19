@@ -1,0 +1,10 @@
+{
+  "name": "example-corpus",
+  "samples": [
+    { "id": "m1", "category": "sqli", "malicious": true,  "text": "' OR 1=1 -- ", "note": "tautology" },
+    { "id": "m2", "category": "sqli", "malicious": true,  "text": "1' UNION SELECT pw FROM users", "note": "union extract" },
+    { "id": "b1", "category": "sqli", "malicious": false, "text": "Florida or Georgia?", "note": "natural or" },
+    { "id": "m3", "category": "xss",  "malicious": true,  "text": "<script>steal()</script>", "note": "script tag" },
+    { "id": "b2", "category": "xss",  "malicious": false, "text": "I wrote a shell script today.", "note": "prose script" }
+  ]
+}
