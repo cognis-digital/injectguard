@@ -19,6 +19,24 @@ detection rules** with measured feedback instead of guesswork.
 
 ---
 
+
+<!-- cognis:example:start -->
+## 🔎 Example output
+
+**Sample result format** _(illustrative values — run on your own data for real findings):_
+
+```
+{
+  "id": "1234567890",
+  "name": "John Doe",
+  "email": "[johndoe@example.com](mailto:johndoe@example.com)",
+  "created_at": "2023-02-20T14:30:00Z",
+  "updated_at": "2023-02-20T14:31:00Z"
+}
+```
+
+<!-- cognis:example:end -->
+
 ## Install / build
 
 Requires Go 1.22+.
